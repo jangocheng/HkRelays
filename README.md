@@ -30,3 +30,11 @@ DIY有风险，该版本STM32贴装芯片较小，测试前请确定焊接到位
 > ESP32烧写
 
 项目中已经有FLASH_TOOL文件夹，该部分为ESP32烧写工具，固件仅为v1.0，后期你可以替换后烧录或者烧录完成后配网OTA升级
+
+# MQTT
+
+MQTT支持状态可用,订阅通用主题:mqtt主题前缀/light 结尾1为第一路，依次2 3
+第一路状态：mqtt主题前缀/light/status/1
+第一路控制：mqtt主题前缀/light/switch/1
+PAYLOAD: ON  | OFF
+
