@@ -19,10 +19,12 @@ DIY有风险，该版本STM32贴装芯片较小，测试前请确定焊接到位
 
 # 刷机
 
->STM32烧写
+![FLASH](https://github.com/huexpub/HkRelays/blob/master/Png/20200705142328.png?raw=true)
+
+> STM32烧写
 
 需要使用ST-LINK或者J-Link工具烧写，具体方法请百度即可
 
->ESP32烧写
+> ESP32烧写
 
 项目中已经有FLASH_TOOL文件夹，该部分为ESP32烧写工具，固件仅为v1.0，后期你可以替换后烧录或者烧录完成后配网OTA升级
